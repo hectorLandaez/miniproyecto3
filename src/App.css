@@ -1,42 +1,101 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 200vh;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fBox {
+    border-style: solid;
+    border-color: grey;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 5%;
+    border-radius: 10px;
+    height: 50vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+#root > div > span:nth-child(1) > input{
+width: 100%;
+}
+#root > div > span:nth-child(2) > input{
+width: 100%;
+}
+/* ------------- second-------------------------- */
+.second{
+    height: 100%;
+    width: 100%;
 }
 
-.card {
-  padding: 2em;
+.profileDiv{
+    margin-left: 5%;
+}
+.fTitle{
+    font-size: 250%;
+    margin-bottom: 2%;
+}
+.sTitle{
+    font-size: 120%;
 }
 
-.read-the-docs {
-  color: #888;
+#root > div > div.info > div:nth-child(1) > div > span:nth-child(2){
+    opacity: 45%;
 }
+
+.personalInfoBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#root > div > div.info > div:nth-child(1) > button{
+    height: 60%;
+    margin-right: 4%;
+    width: 10%;
+}
+.info {
+    border-color: grey;
+    border-style: solid;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    border-width: thin;
+}
+#root > div > div.info > div:nth-child(1) > div{
+    display: flex;
+    flex-direction: column;
+}
+.divInfo {
+    display: flex;
+    justify-content: space-between;
+    border-style: solid;
+    border-color: grey;
+    width: 100%;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    height: 16.6667%;
+    align-items: center;
+    border-width: thin;
+}
+.divContent{
+    margin-right: 5%;
+}
+.divTitle{
+    margin-left: 5%;
+    opacity: 45%;
+}
+.img{
+    height: 80%;
+    width: 5%;
+    background-color: red;
+    margin-right: 5%;
+}
+/* ------------- second-------------------------- */
