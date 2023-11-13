@@ -1,0 +1,18 @@
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+body > form > div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-color: grey;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 30px;
+}
